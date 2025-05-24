@@ -58,8 +58,7 @@ CREATE TABLE artist (
 CREATE TABLE album (
     album_id INT PRIMARY KEY,
     title VARCHAR(160) NULL,
-    artist_id INT NULL,
-    FOREIGN KEY (artist_id) REFERENCES artist(artist_id)
+    artist_id INT NULL
 );
 
 CREATE TABLE genre (

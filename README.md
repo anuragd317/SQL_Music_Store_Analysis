@@ -50,8 +50,6 @@ The dataset consists of multiple tables representing various entities within the
 This project demonstrates how structured SQL analysis can uncover **valuable business insights** from a fictional global music store database — supporting smarter, data-driven decision-making for international brands.
 
 ---
-## Linkedin 
--https://www.linkedin.com/in/anuragdas3/
 
 ---
 

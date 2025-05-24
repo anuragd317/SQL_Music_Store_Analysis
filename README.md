@@ -1,12 +1,7 @@
 # 🎵 Music Store Global – SQL Data Analysis Project
 
-Welcome to the **Music Store Global** SQL project! This repository showcases a comprehensive analysis of a fictional global music retail database using SQL. The objective is to extract meaningful insights related to **customer behavior**, **sales trends**, and **music preferences** across countries.
+This SQL project showcases a comprehensive analysis of a fictional global music retail database using SQL. The objective is to extract meaningful insights related to **customer behavior**, **sales trends**, **music preferences** and **top artist** across countries and genres.
 
----
-
-## 📌 Project Summary
-
-This project simulates a real-world business scenario for a global music brand (like Nike, but for music). Leveraging structured data, advanced SQL techniques, and creative visualization, it answers key business questions and helps inform strategic decisions.
 
 ---
 
@@ -25,15 +20,14 @@ The dataset is comprised of multiple normalized tables, each representing differ
 | `artist`        | Music artists                                   |
 | `genre`         | Music genres                                    |
 | `playlist`      | Playlists and associated tracks                 |
+| `playlist_track`| Links Track and playlist                                   |
 | `media_type`    | Media format types (e.g., MP3, AAC)             |
 
-🔗 All tables are linked via **primary** and **foreign keys**, maintaining relational integrity.
 
 ---
 
-## 🔍 Analysis Highlights
 
-Through a series of SQL queries, I explored:
+## 🔍 Analysis Highlights
 
 - 🧑‍🤝‍🧑 **Customer Spending Patterns**: Who spends the most and on what?
 - 🌎 **Genre Popularity by Country**: Which music genres dominate each region?
@@ -52,23 +46,7 @@ Through a series of SQL queries, I explored:
 
 ---
 
-## 📊 Visual Report
-
-The final insights were presented using a **music-themed light brown & white Canva template**, giving a clean and professional aesthetic. Screenshots of queries, diagrams, and insights are included.
-
----
-
-## 📁 Project Files
-
-- `.sql` file with all queries
-- CSV files (cleaned and normalized)
-- Canva report screenshots
-- ER Diagram (included as an image)
-
-
----
-
-## 🚀 Summary
+## 🚀 Project Summary
 
 > This project demonstrates how structured SQL analysis can provide **powerful business insights** from raw music store data — helping global brands make smarter, data-driven decisions.
 
